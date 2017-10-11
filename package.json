@@ -1,0 +1,25 @@
+{
+  "name": "web-component-refs",
+  "version": "0.0.1",
+  "description": "Refs, like you know them in React and Vue, for web components",
+  "main": "src/web-component-refs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremenichelli/web-component-refs.git"
+  },
+  "keywords": [
+    "web",
+    "component",
+    "refs",
+    "ref"
+  ],
+  "author": "Jeremias Menichelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremenichelli/web-component-refs/issues"
+  },
+  "homepage": "https://github.com/jeremenichelli/web-component-refs#readme"
+}
