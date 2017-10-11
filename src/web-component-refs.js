@@ -10,7 +10,7 @@ function collectRefs() {
   const refsList = this.shadowRoot.querySelectorAll('[ref]');
 
   // collect refs if any
-  if (refsArray.length > 0) {
+  if (refsList.length > 0) {
     const refsArray = _toArray(refsList);
     refsArray.map(_assignRef.bind(this));
 
