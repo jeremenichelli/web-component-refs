@@ -1,6 +1,6 @@
 {
   "name": "web-component-refs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Refs, like you know them in React and Vue, for web components",
   "main": "src/web-component-refs.js",
   "scripts": {
