@@ -1,4 +1,4 @@
-/* web-component-refs v0.0.2 - 2017 - Jeremias Menichelli - MIT License */
+/* web-component-refs v0.0.3 - 2017 - Jeremias Menichelli - MIT License */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
   typeof define === 'function' && define.amd ? define(factory) :
