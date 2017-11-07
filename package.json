@@ -2,7 +2,7 @@
   "name": "web-component-refs",
   "version": "0.0.3",
   "description": "Refs, like you know them in React and Vue, for web components",
-  "main": "src/web-component-refs.js",
+  "main": "dist/web-component-refs.js",
   "scripts": {
     "lint": "eslint ./src/**/*.js",
     "pretest": "npm run lint",
