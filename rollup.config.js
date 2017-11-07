@@ -10,7 +10,7 @@ export default {
   globals: [
     'window'
   ],
-  name: pkg.name,
+  name: 'webComponentRefs',
   indent: true,
   strict: true,
   banner: `/* ${ pkg.name } v${ pkg.version } - ${ year } - Jeremias Menichelli - MIT License */`

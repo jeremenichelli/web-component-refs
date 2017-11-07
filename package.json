@@ -8,7 +8,9 @@
     "pretest": "npm run lint",
     "test": "echo \"Error: no test written yet\" && exit 0",
     "prebuild": "npm run test",
-    "build": "rollup -c rollup.config.js"
+    "build": "rollup -c rollup.config.js",
+    "postbuild": "npm run minify",
+    "minify": "uglifyjs dist/web-component-refs.js -c -m -o dist/web-component-refs.min.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,7 @@
   "homepage": "https://github.com/jeremenichelli/web-component-refs#readme",
   "devDependencies": {
     "eslint": "^4.10.0",
-    "rollup": "^0.50.0"
+    "rollup": "^0.50.0",
+    "uglify-js": "^3.1.8"
   }
 }
