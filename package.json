@@ -4,15 +4,20 @@
   "description": "Refs, like you know them in React and Vue, for web components",
   "main": "src/web-component-refs.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ./src/**/*.js",
+    "pretest": "npm run lint",
+    "test": "echo \"Error: no test written yet\" && exit 0",
+    "prebuild": "npm run test",
+    "build": "rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeremenichelli/web-component-refs.git"
   },
   "keywords": [
-    "web",
-    "component",
+    "web components",
+    "custom elements",
+    "shadow dom",
     "refs",
     "ref"
   ],
@@ -21,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/jeremenichelli/web-component-refs/issues"
   },
-  "homepage": "https://github.com/jeremenichelli/web-component-refs#readme"
+  "homepage": "https://github.com/jeremenichelli/web-component-refs#readme",
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "rollup": "^0.50.0"
+  }
 }
